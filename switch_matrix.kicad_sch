@@ -688,6 +688,9 @@
   (junction (at 152.4 138.43) (diameter 0) (color 0 0 0 0)
     (uuid 086c80f3-60da-4615-b680-db314b41216a)
   )
+  (junction (at 200.66 156.21) (diameter 0) (color 0 0 0 0)
+    (uuid 09cf376c-3043-4291-b93f-70758719d605)
+  )
   (junction (at 152.4 100.33) (diameter 0) (color 0 0 0 0)
     (uuid 0ab2cc80-9bb0-4975-bb64-5559ce72efee)
   )
@@ -724,6 +727,9 @@
   (junction (at 68.58 100.33) (diameter 0) (color 0 0 0 0)
     (uuid 33d507c5-240a-4b80-b487-bb89db72334d)
   )
+  (junction (at 95.25 156.21) (diameter 0) (color 0 0 0 0)
+    (uuid 3401bb07-a1c1-4fa3-bb6d-c9dc810cf4b2)
+  )
   (junction (at 222.25 76.2) (diameter 0) (color 0 0 0 0)
     (uuid 35b8cd8a-1f81-48d0-80bd-229bfce1c624)
   )
@@ -738,9 +744,6 @@
   )
   (junction (at 237.49 100.33) (diameter 0) (color 0 0 0 0)
     (uuid 3c430344-2c9f-4e55-b48e-2d093ab3dfe8)
-  )
-  (junction (at 173.99 138.43) (diameter 0) (color 0 0 0 0)
-    (uuid 3c62e059-564e-4322-b2f1-199b1025bd58)
   )
   (junction (at 137.16 110.49) (diameter 0) (color 0 0 0 0)
     (uuid 3dc902d4-598e-4b7d-955a-7a83316302d1)
@@ -795,6 +798,9 @@
   )
   (junction (at 222.25 110.49) (diameter 0) (color 0 0 0 0)
     (uuid 7656be37-e544-4323-883f-f53d4fc5edb9)
+  )
+  (junction (at 53.34 156.21) (diameter 0) (color 0 0 0 0)
+    (uuid 7a9225cb-dc26-485d-be27-b2a482d9195e)
   )
   (junction (at 31.75 110.49) (diameter 0) (color 0 0 0 0)
     (uuid 8025afc9-6561-421c-a14e-7b7c658f10dd)
@@ -853,6 +859,9 @@
   (junction (at 173.99 29.21) (diameter 0) (color 0 0 0 0)
     (uuid b4a30203-475e-42fa-9df5-29bc48206029)
   )
+  (junction (at 179.07 156.21) (diameter 0) (color 0 0 0 0)
+    (uuid b8f05905-f074-4b5d-b6ff-7956bd1d0463)
+  )
   (junction (at 157.48 161.29) (diameter 0) (color 0 0 0 0)
     (uuid bcf4316a-c290-4414-a60c-05a28e446fd8)
   )
@@ -868,8 +877,14 @@
   (junction (at 157.48 39.37) (diameter 0) (color 0 0 0 0)
     (uuid c785c744-b8d3-4407-b6de-5dbddaa01b17)
   )
+  (junction (at 73.66 156.21) (diameter 0) (color 0 0 0 0)
+    (uuid c7be8e3d-f148-4905-bfd3-a15283db992a)
+  )
   (junction (at 73.66 76.2) (diameter 0) (color 0 0 0 0)
     (uuid c7ff15d3-6c22-47e8-a4a3-af53016e95b5)
+  )
+  (junction (at 157.48 156.21) (diameter 0) (color 0 0 0 0)
+    (uuid c85624da-2735-4c95-a7ac-bc3fa9faddfd)
   )
   (junction (at 95.25 39.37) (diameter 0) (color 0 0 0 0)
     (uuid c870de69-103d-4dde-96b5-142b64212d49)
@@ -915,6 +930,9 @@
   )
   (junction (at 31.75 39.37) (diameter 0) (color 0 0 0 0)
     (uuid f4b50385-6625-432a-b1b7-659cf2af6673)
+  )
+  (junction (at 173.99 138.43) (diameter 0) (color 0 0 0 0)
+    (uuid f810fff4-9958-4f9e-a105-eb63ef684fcd)
   )
   (junction (at 27.94 -3.81) (diameter 0) (color 0 0 0 0)
     (uuid fa9d394d-e4ee-45c4-9c2d-e8ba2372dfb9)
@@ -990,11 +1008,15 @@
     (stroke (width 0) (type default))
     (uuid 2d80ac79-8088-4e69-93b9-b38e74728611)
   )
+  (wire (pts (xy 200.66 143.51) (xy 200.66 156.21))
+    (stroke (width 0) (type default))
+    (uuid 2ea5ed2d-0572-4a43-9885-f23f348388a7)
+  )
   (wire (pts (xy 137.16 110.49) (xy 157.48 110.49))
     (stroke (width 0) (type default))
     (uuid 2eff01bc-f4ed-48d1-a987-217ff53894a5)
   )
-  (wire (pts (xy 243.84 -2.54) (xy 243.84 -3.81))
+  (wire (pts (xy 237.49 -2.54) (xy 237.49 -3.81))
     (stroke (width 0) (type default))
     (uuid 303e9e9f-d54a-482f-99d2-f76d10f611e1)
   )
@@ -1013,6 +1035,10 @@
   (wire (pts (xy 31.75 76.2) (xy 53.34 76.2))
     (stroke (width 0) (type default))
     (uuid 347938fc-8ec3-47b6-b055-6b143e913d6f)
+  )
+  (wire (pts (xy 39.37 2.54) (xy 39.37 1.27))
+    (stroke (width 0) (type default))
+    (uuid 35d767b3-abe2-4011-8cef-8b92b72521c8)
   )
   (wire (pts (xy 179.07 76.2) (xy 200.66 76.2))
     (stroke (width 0) (type default))
@@ -1034,9 +1060,21 @@
     (stroke (width 0) (type default))
     (uuid 45ec570b-8011-49a6-8835-bf49c82df4fe)
   )
+  (wire (pts (xy 73.66 144.78) (xy 73.66 156.21))
+    (stroke (width 0) (type default))
+    (uuid 4a4b7e1e-1eb6-4a1b-b0d8-711ab9f154cf)
+  )
+  (wire (pts (xy 53.34 144.78) (xy 53.34 156.21))
+    (stroke (width 0) (type default))
+    (uuid 4b3daa83-e6a7-407c-9cfb-ec826fdf5de6)
+  )
   (wire (pts (xy 90.17 66.04) (xy 90.17 100.33))
     (stroke (width 0) (type default))
     (uuid 4d085dfd-eec0-40dd-877f-f7e526fdfee5)
+  )
+  (wire (pts (xy 179.07 143.51) (xy 179.07 156.21))
+    (stroke (width 0) (type default))
+    (uuid 4da1ad73-8880-4ece-b569-97787a929217)
   )
   (wire (pts (xy 26.67 21.59) (xy 26.67 29.21))
     (stroke (width 0) (type default))
@@ -1058,13 +1096,17 @@
     (stroke (width 0) (type default))
     (uuid 604fdcbc-90fc-45b0-883a-d1861300413c)
   )
-  (wire (pts (xy 2.54 -1.27) (xy 8.89 -1.27))
+  (wire (pts (xy -1.27 -1.27) (xy 8.89 -1.27))
     (stroke (width 0) (type default))
     (uuid 606f9d2b-72c6-457b-99a8-f13b7853fee9)
   )
   (wire (pts (xy 237.49 100.33) (xy 237.49 151.13))
     (stroke (width 0) (type default))
     (uuid 6306c92c-112b-4b07-b7fc-8f7f3af23f36)
+  )
+  (wire (pts (xy 173.99 138.43) (xy 173.99 151.13))
+    (stroke (width 0) (type default))
+    (uuid 65191097-df76-40ce-896c-421a070fdefc)
   )
   (wire (pts (xy 26.67 29.21) (xy 26.67 66.04))
     (stroke (width 0) (type default))
@@ -1073,6 +1115,10 @@
   (wire (pts (xy 95.25 161.29) (xy 137.16 161.29))
     (stroke (width 0) (type default))
     (uuid 70ff8c78-25ca-42dc-a5ad-ef7f7dfee49d)
+  )
+  (wire (pts (xy 173.99 100.33) (xy 173.99 138.43))
+    (stroke (width 0) (type default))
+    (uuid 72f356cf-ba0a-43b6-8da2-997ae43708cd)
   )
   (wire (pts (xy 48.26 100.33) (xy 48.26 139.7))
     (stroke (width 0) (type default))
@@ -1106,7 +1152,7 @@
     (stroke (width 0) (type default))
     (uuid 80b42777-9245-4fea-bbd2-ae4082a302b7)
   )
-  (wire (pts (xy 243.84 -3.81) (xy 250.19 -3.81))
+  (wire (pts (xy 237.49 -3.81) (xy 250.19 -3.81))
     (stroke (width 0) (type default))
     (uuid 82182f20-029e-45ae-8c84-9b63c104dc0d)
   )
@@ -1154,6 +1200,10 @@
     (stroke (width 0) (type default))
     (uuid 93fcbc34-750a-466b-8543-12fac8d04257)
   )
+  (wire (pts (xy 95.25 144.78) (xy 95.25 156.21))
+    (stroke (width 0) (type default))
+    (uuid 95bda72f-9506-4c08-aa1a-cc48409bf25d)
+  )
   (wire (pts (xy 157.48 161.29) (xy 179.07 161.29))
     (stroke (width 0) (type default))
     (uuid 963e30eb-c978-4381-846d-82939c607b13)
@@ -1198,17 +1248,13 @@
     (stroke (width 0) (type default))
     (uuid ac5b8090-560f-44c4-b325-52aa813aee99)
   )
-  (wire (pts (xy 173.99 100.33) (xy 173.99 138.43))
+  (wire (pts (xy 280.67 0) (xy 280.67 -1.27))
     (stroke (width 0) (type default))
-    (uuid b0c2eac5-1414-429c-a215-b70867abd51f)
+    (uuid b0988872-386a-4b7f-8e98-db518c86aab6)
   )
   (wire (pts (xy 95.25 110.49) (xy 115.57 110.49))
     (stroke (width 0) (type default))
     (uuid b4369747-9866-4555-8400-ebe45668a780)
-  )
-  (wire (pts (xy 173.99 138.43) (xy 173.99 151.13))
-    (stroke (width 0) (type default))
-    (uuid b4548d19-1058-4cf5-88bb-227f515dcdb5)
   )
   (wire (pts (xy 269.24 -6.35) (xy 273.05 -6.35))
     (stroke (width 0) (type default))
@@ -1274,6 +1320,10 @@
     (stroke (width 0) (type default))
     (uuid dc355356-936e-41c7-865f-d406b78d20dc)
   )
+  (wire (pts (xy 157.48 143.51) (xy 157.48 156.21))
+    (stroke (width 0) (type default))
+    (uuid dda4d2fd-90f2-4851-8f00-108a01041240)
+  )
   (wire (pts (xy 200.66 110.49) (xy 222.25 110.49))
     (stroke (width 0) (type default))
     (uuid de63e8f5-5913-4b3e-ae6f-c8e7ec6f3456)
@@ -1290,7 +1340,7 @@
     (stroke (width 0) (type default))
     (uuid e429c366-2817-4323-b997-180140b0c2d4)
   )
-  (wire (pts (xy 2.54 0) (xy 2.54 -1.27))
+  (wire (pts (xy -1.27 0) (xy -1.27 -1.27))
     (stroke (width 0) (type default))
     (uuid e72b828b-fe1b-42a2-8292-7be63106f3b5)
   )
@@ -1343,259 +1393,177 @@
     (uuid fe574667-c4bd-4984-9931-ec623ce8c1f0)
   )
 
-  (label "SKY_MAT_1" (at 31.75 34.29 0) (fields_autoplaced)
+  (label "D1" (at 39.37 2.54 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 06e25fe7-a750-4fb7-bb87-502f08f8d54b)
+  )
+  (label "SKY_MAT_2" (at 259.08 24.13 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 3e3a8dac-3ed7-48bd-b073-613680cd8d41)
+    (uuid 07d18cb6-2e27-4f9e-9f36-87a6748a5a98)
+  )
+  (label "D12" (at 280.67 0 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 4450a080-c913-4c39-a841-c1e6f65eb995)
+  )
+  (label "D12" (at 264.16 34.29 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 54494ea1-74e7-4258-9d8c-fea07d80fd68)
+  )
+  (label "D1" (at 31.75 34.29 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5c79759e-c7e5-4b2f-b047-ab69381229ab)
   )
   (label "SKY_MAT_1" (at 39.37 -8.89 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 60280366-c1a2-4e5f-88e3-c44a231b1f18)
   )
-  (label "SKY_MAT_2" (at 264.16 34.29 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8668c36f-de9a-4261-99fd-f2300d3da2d5)
-  )
   (label "SKY_MAT_2" (at 280.67 -11.43 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ca59313a-275e-4c92-9aea-fabfe7a52820)
   )
+  (label "SKY_MAT_1" (at 26.67 24.13 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d577e99c-3de3-4276-98cb-74a17588d37c)
+  )
 
-  (global_label "GP18" (shape input) (at 96.52 -17.78 90) (fields_autoplaced)
+  (global_label "COL7" (shape input) (at 173.99 21.59 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 0020a66f-3b72-48df-8a49-baa0c6a12621)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 96.52 -25.6448 90)
+    (uuid 12920c2e-7665-4b74-a422-93f77b2f3d01)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 173.99 13.7667 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "GP29" (shape input) (at 81.28 -17.78 90) (fields_autoplaced)
+  (global_label "COL11" (shape input) (at 259.08 21.59 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 0362ed53-3ebd-4898-ae34-a47428bdbcbd)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 81.28 -25.6448 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "GP4" (shape input) (at 173.99 21.59 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 05e67348-452d-4ef4-aa4a-0bfa45a67268)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 173.99 14.9347 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "GP3" (shape input) (at 152.4 21.59 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 090f88b6-f0da-485b-a5fe-33006cef6909)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 152.4 14.9347 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "GP15" (shape input) (at 104.14 -17.78 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 0f2a3675-8914-44f3-99a2-0ad14a595aa9)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 104.14 -25.6448 90)
+    (uuid 40a5a5be-0ec2-4228-a58c-154f8fce1811)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 259.08 12.5572 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "GP9" (shape input) (at 259.08 21.59 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 1cd165bc-6dcc-4c12-8479-6d357339f822)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 259.08 14.9347 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "GP23" (shape input) (at 110.49 21.59 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 1d2996a4-59ef-4793-95f3-8664c51d2f66)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.49 13.7252 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "GP13" (shape input) (at 109.22 -17.78 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 1f0cd43f-046e-4147-952b-121fa8c64227)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 109.22 -25.6448 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "GP12" (shape input) (at 111.76 -17.78 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 20be6ae9-e19c-432a-8fc3-d3f0a5494910)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 111.76 -25.6448 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "GP7" (shape input) (at 119.38 -17.78 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 2695f523-dd70-4f93-af59-874287761cc4)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 119.38 -24.4353 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "GP14" (shape input) (at 106.68 -17.78 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 28927763-308f-4f1c-877e-8bbd9e9c270d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 106.68 -25.6448 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "GP28" (shape input) (at 90.17 21.59 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 2a433f50-e6f3-4c6f-a0f4-2d79a9242202)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 90.17 13.7252 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "GP0" (shape input) (at 48.26 21.59 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 37eb624d-3c89-4bb3-a209-aa607ab59f59)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 48.26 14.9347 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "GP26" (shape input) (at 39.37 1.27 270) (fields_autoplaced)
+  (global_label "ROW0" (shape input) (at 22.86 39.37 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 39baddea-24fd-414c-9c33-626cc42b3b91)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 39.37 9.1348 90)
+    (uuid 45241cbc-4db3-41c3-956c-08349b4644fc)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 14.6134 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "GP5" (shape input) (at 195.58 21.59 90) (fields_autoplaced)
+  (global_label "COL10" (shape input) (at 237.49 21.59 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 3a9b01e2-ea6c-4f63-a23a-94feff2c918e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 195.58 14.9347 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "GP11" (shape input) (at 114.3 -17.78 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 3f0eba8b-fc9c-428b-875a-2202cf04a036)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 114.3 -25.6448 90)
+    (uuid 488759cb-e44f-4840-a0f7-af9d14e22829)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 237.49 12.5572 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "GP26" (shape input) (at 83.82 -17.78 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 4feb8b01-3882-4676-92d1-d5d46ec94cbf)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 83.82 -25.6448 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "GP21" (shape input) (at 68.58 21.59 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 678fc6d5-8e32-478b-a477-6bf52649fcf8)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 68.58 13.7252 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "GP24" (shape input) (at 22.86 110.49 180) (fields_autoplaced)
+  (global_label "ENC1B" (shape input) (at 250.19 -1.27 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 74478f91-de1a-4b49-a352-21c61bdd01a8)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 14.9952 110.49 0)
+    (uuid 4ff0494c-309d-496b-8dc2-249887af88e8)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 240.9758 -1.27 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "GP2" (shape input) (at 132.08 21.59 90) (fields_autoplaced)
+  (global_label "COL2" (shape input) (at 68.58 21.59 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 7c7a0342-f2b0-4e20-8578-abd19551d86c)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 132.08 14.9347 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "GP22" (shape input) (at 88.9 -17.78 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 819b0e57-e88e-4a46-8645-f0965d4e2ddc)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 88.9 -25.6448 90)
+    (uuid 574f2c65-eb7a-4dca-8559-e0275b14fefc)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 68.58 13.7667 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "GP16" (shape input) (at 101.6 -17.78 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 914101c6-b447-4064-9dbf-593652ff6005)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 101.6 -25.6448 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "GP20" (shape input) (at 91.44 -17.78 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 91e67732-44c5-4141-89f1-22da6693c893)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 91.44 -25.6448 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "GP26" (shape input) (at 22.86 39.37 180) (fields_autoplaced)
+  (global_label "ENC0A" (shape input) (at 8.89 -3.81 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ab96cf6f-a468-46be-abdf-b859f19d93ce)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 14.9952 39.37 0)
+    (uuid 66b8e914-e28b-4b89-81a0-9d438fc7db36)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at -0.1428 -3.81 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "GP6" (shape input) (at 217.17 21.59 90) (fields_autoplaced)
+  (global_label "COL0" (shape input) (at 26.67 21.59 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid aea13200-2427-4819-b857-abd393ff7f47)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 217.17 14.9347 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "GP17" (shape input) (at 99.06 -17.78 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid cb575e60-4660-4bcb-b4ae-8c146dee6843)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 99.06 -25.6448 90)
+    (uuid 6923c76b-5807-4a19-bfe6-ac0c13305408)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 26.67 13.7667 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "GP26" (shape input) (at 280.67 -1.27 270) (fields_autoplaced)
+  (global_label "ROW2" (shape input) (at 22.86 110.49 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid cfd0b6e9-686b-4769-82ed-44dc563a5b4e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 280.67 6.5948 90)
+    (uuid 6f71dc3d-ea75-4f6d-b0cd-eb98cd8be1a6)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 14.6134 110.49 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "GP10" (shape input) (at 116.84 -17.78 90) (fields_autoplaced)
+  (global_label "COL5" (shape input) (at 132.08 21.59 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid dc070969-531b-4020-a529-03153e615dad)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 116.84 -25.6448 90)
+    (uuid 72c93a1f-3113-4233-a737-37d58344cff4)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 132.08 13.7667 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "GP25" (shape input) (at 22.86 161.29 180) (fields_autoplaced)
+  (global_label "COL9" (shape input) (at 217.17 21.59 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 750020d6-da65-49db-9633-6cb8cc56da62)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 217.17 13.7667 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "COL3" (shape input) (at 90.17 21.59 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 8587e089-71c3-413a-9053-23974933e3ef)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 90.17 13.7667 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "COL6" (shape input) (at 152.4 21.59 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 972c17fb-a9d9-41fd-8293-f7a29b558967)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 152.4 13.7667 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "ENC1A" (shape input) (at 250.19 -6.35 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ebfc7433-e856-44a5-ab4f-0313872379e9)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 14.9952 161.29 0)
+    (uuid 9d7d9143-e476-45a3-969e-d73b151d65a9)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 241.1572 -6.35 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "GP23" (shape input) (at 86.36 -17.78 90) (fields_autoplaced)
+  (global_label "COL1" (shape input) (at 48.26 21.59 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid f786c8a2-1ed1-4189-bc8c-9663fc74f7fe)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 86.36 -25.6448 90)
+    (uuid a55e658a-4320-465c-a3ce-145bf75c4a57)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 48.26 13.7667 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "GP19" (shape input) (at 93.98 -17.78 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid f89e8bc9-0b38-45af-8220-b53af8011386)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 93.98 -25.6448 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "GP8" (shape input) (at 237.49 21.59 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid fc583438-5511-47ba-a819-e1a29bd425cf)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 237.49 14.9347 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "GP27" (shape input) (at 22.86 76.2 180) (fields_autoplaced)
+  (global_label "ENC0B" (shape input) (at 8.89 1.27 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid fc73bd28-f3fb-4203-8c5f-c0063141bb75)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 14.9952 76.2 0)
+    (uuid b169c403-9023-4cd5-b65a-31d60c6c3066)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at -0.3242 1.27 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "GP1" (shape input) (at 26.67 21.59 90) (fields_autoplaced)
+  (global_label "COL4" (shape input) (at 110.49 21.59 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid fde1ed4d-cedb-4fbc-98f5-e9c276a3a247)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 26.67 14.9347 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (uuid b83f8a86-b4b4-4124-a36f-9aa5e26e438a)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 110.49 13.7667 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "COL8" (shape input) (at 195.58 21.59 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid c75b96f3-6461-46ee-b54d-b93b10869fbc)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 195.58 13.7667 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "ROW3" (shape input) (at 22.86 161.29 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid ca9a7640-3bab-44ed-8467-9f0698342ed6)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 14.6134 161.29 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "ROW1" (shape input) (at 22.86 76.2 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid e706be4b-04b7-4a07-9a88-5584320ae140)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 14.6134 76.2 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
 
@@ -1617,7 +1585,7 @@
     (pin "1" (uuid e008f7af-9dfd-479d-865d-58d7fcf3255f))
     (pin "2" (uuid 1f509037-546f-4eb6-b687-815a6ecad311))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW36") (unit 1)
         )
@@ -1641,7 +1609,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "S2") (unit 1)
         )
@@ -1676,7 +1644,7 @@
     (pin "1" (uuid c93b5371-3e03-4bca-bbdc-ede3810e74d9))
     (pin "2" (uuid cc1b6a1d-b108-4369-9d47-d670317ebaac))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D29") (unit 1)
         )
@@ -1702,7 +1670,7 @@
     (pin "1" (uuid ad5642dd-a2d2-46f0-b92b-547971841bf3))
     (pin "2" (uuid 1c0481ba-239f-4221-8526-c8a8b6c2e304))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW46") (unit 1)
         )
@@ -1730,7 +1698,7 @@
     (pin "C" (uuid 678135ce-b6bf-411c-ba5b-bd8aa0614d85))
     (pin "S" (uuid d8759bf5-82df-4307-bf60-7085b71201be))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW44") (unit 1)
         )
@@ -1765,7 +1733,7 @@
     (pin "1" (uuid 90b10fe8-f0c4-4181-bf61-ac8b00255707))
     (pin "2" (uuid 28189e5d-add0-4031-b50a-b2d95a0735f0))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D35") (unit 1)
         )
@@ -1791,7 +1759,7 @@
     (pin "1" (uuid 208349f3-83e0-41c9-87df-ca0e77de0930))
     (pin "2" (uuid afbdbead-f48f-4768-9410-6b7ea62e12ce))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW9") (unit 1)
         )
@@ -1815,7 +1783,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "S41") (unit 1)
         )
@@ -1841,9 +1809,35 @@
     (pin "1" (uuid 6dc47c0d-bf31-452c-9262-9515224d3adc))
     (pin "2" (uuid 27f4c5c1-cd65-418d-9ce4-5b25d19c5b73))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "marbastlib-mx:MX_SW_HS") (at 176.53 140.97 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 184f2dcb-1749-4c3e-989f-fdb2b46d582d)
+    (property "Reference" "SW50" (at 176.53 134.62 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "MX_SW_solder" (at 176.53 137.16 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "marbastlib-mx:SW_MX_1u" (at 176.53 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 176.53 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d93b73c8-8fe3-4cfe-82a7-5a5537f903b2))
+    (pin "2" (uuid 84819557-9e0b-4d7f-a39c-7b60255a0abd))
+    (instances
+      (project "Koneko40Stagger"
+        (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
+          (reference "SW50") (unit 1)
         )
       )
     )
@@ -1870,7 +1864,7 @@
     (pin "1" (uuid 8a46f776-7862-4213-be01-4da536b7417a))
     (pin "2" (uuid a027baaa-ac56-47c7-a477-28086416b00b))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21"
           (reference "R3") (unit 1)
         )
@@ -1908,7 +1902,7 @@
     (pin "1" (uuid 62ec21d5-679a-42bc-8e10-b54dd5b1f0e7))
     (pin "2" (uuid 37367d7a-215a-4c22-b1ed-8efad73b236c))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D5") (unit 1)
         )
@@ -1943,7 +1937,7 @@
     (pin "1" (uuid 7df32b39-94ca-4340-a51f-6874e90982d5))
     (pin "2" (uuid e7216602-b4be-41b6-90d8-4ab486485189))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D10") (unit 1)
         )
@@ -1978,7 +1972,7 @@
     (pin "1" (uuid d3ddc60b-98ad-4798-8281-2a22e4d5a93d))
     (pin "2" (uuid 34088ba7-4a9b-40bb-b984-2b636319468d))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D17") (unit 1)
         )
@@ -2013,35 +2007,9 @@
     (pin "1" (uuid 37f05f48-39fc-4fa8-8963-1ad0a3c31b43))
     (pin "2" (uuid be5ecbcc-1330-4d40-b509-638c1da920df))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D15") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "marbastlib-mx:MX_SW_HS") (at 198.12 153.67 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 36bc3946-deb8-464f-8f4a-615994324e36)
-    (property "Reference" "SW50" (at 198.12 147.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "MX_SW_solder" (at 198.12 149.86 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "marbastlib-mx:SW_MX_1u" (at 198.12 153.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 198.12 153.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 74a8b293-c201-4161-822b-6938f979b1de))
-    (pin "2" (uuid f6b68b6c-2556-47a5-a228-2ce7378e3e9a))
-    (instances
-      (project "PCB"
-        (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
-          (reference "SW50") (unit 1)
         )
       )
     )
@@ -2065,7 +2033,7 @@
     (pin "1" (uuid d7f03c57-16f1-4dcb-8a4e-8ac9b55cee2b))
     (pin "2" (uuid 4b3ac1ee-0f40-47ad-b0c7-eb8fbb39da68))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW40") (unit 1)
         )
@@ -2089,7 +2057,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "S35") (unit 1)
         )
@@ -2124,7 +2092,7 @@
     (pin "1" (uuid ae974d55-e363-493a-93cc-4e8f9da11588))
     (pin "2" (uuid 273bba8d-699e-41b4-a014-691f14bd64ae))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D27") (unit 1)
         )
@@ -2159,7 +2127,7 @@
     (pin "1" (uuid 281d3ed7-879b-43dd-b983-b2b241b86689))
     (pin "2" (uuid 84310864-5053-46f4-8092-3ed466da50d0))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D23") (unit 1)
         )
@@ -2185,7 +2153,7 @@
     (pin "1" (uuid e58d81d7-6e93-48d5-84e0-59f540a56f5a))
     (pin "2" (uuid 7ea487c5-6a03-4a9f-8b94-9938c97a0ccd))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW26") (unit 1)
         )
@@ -2211,7 +2179,7 @@
     (pin "1" (uuid 1943c898-fd5b-47a4-b1c2-ceb7f18ba935))
     (pin "2" (uuid 60b50c9d-56d4-4a10-8e9b-f9fe4fe011cc))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW31") (unit 1)
         )
@@ -2237,7 +2205,7 @@
     (pin "1" (uuid 2a3ad4ac-8913-4835-bfc6-6b6a375397b3))
     (pin "2" (uuid 9dd2fac6-db6b-4021-ba8f-21e8674e7a90))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW52") (unit 1)
         )
@@ -2272,7 +2240,7 @@
     (pin "1" (uuid 4ca20f8a-7a5a-418a-928d-fe950f07fd9c))
     (pin "2" (uuid a00d0251-1aee-4a82-9551-70d630a39973))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D9") (unit 1)
         )
@@ -2296,7 +2264,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "S1") (unit 1)
         )
@@ -2331,7 +2299,7 @@
     (pin "1" (uuid 2f4e2b42-3f26-4411-af92-07e9bab0a507))
     (pin "2" (uuid df14a33d-5cab-4457-a557-35720d043dbc))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D19") (unit 1)
         )
@@ -2357,7 +2325,7 @@
     (pin "1" (uuid ffeffd33-2a4c-4e7b-86c8-0bb7f9fbcb6c))
     (pin "2" (uuid ad614e5d-bd63-44b5-b0fb-c2421c6ab0bd))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW34") (unit 1)
         )
@@ -2382,7 +2350,7 @@
     )
     (pin "1" (uuid a6fe5cf5-a901-4ebc-b481-77a6cb7ab671))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "#PWR027") (unit 1)
         )
@@ -2408,7 +2376,7 @@
     (pin "1" (uuid 3615f15e-01fa-43f1-9a11-73ea33ece09a))
     (pin "2" (uuid ce3f6efe-8e32-4067-9002-3f7389474092))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW2") (unit 1)
         )
@@ -2416,24 +2384,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 243.84 -2.54 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 237.49 -2.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a478163-7f10-469c-838c-6313b077529d)
-    (property "Reference" "#PWR018" (at 243.84 3.81 0)
+    (property "Reference" "#PWR018" (at 237.49 3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 243.84 2.54 0)
+    (property "Value" "GND" (at 237.49 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 243.84 -2.54 0)
+    (property "Footprint" "" (at 237.49 -2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 243.84 -2.54 0)
+    (property "Datasheet" "" (at 237.49 -2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 18ec8db5-b3a1-414c-9fea-3a5cf0233297))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "#PWR018") (unit 1)
         )
@@ -2459,7 +2427,7 @@
     (pin "1" (uuid cee30596-6166-48fc-9a5f-c3e22c045afc))
     (pin "2" (uuid 52f6de99-ce9a-4416-bf37-54350411e8a6))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW13") (unit 1)
         )
@@ -2498,7 +2466,7 @@
     (pin "2" (uuid e5e55871-ee20-4c06-819c-a93c68f23f91))
     (pin "3" (uuid 9ed09d3e-8063-42c4-87a8-2c4fccab010d))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21"
           (reference "Q1") (unit 1)
         )
@@ -2527,7 +2495,7 @@
     (pin "1" (uuid 358a1cd6-9d2f-4520-ba9c-b965efbc6947))
     (pin "2" (uuid 642cdf2b-e0bc-4def-abb3-6cea628a0223))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW45") (unit 1)
         )
@@ -2553,7 +2521,7 @@
     (pin "1" (uuid 52dfaad7-87dd-41c7-95ae-b830e5167134))
     (pin "2" (uuid 2da7ceb6-31d9-4be8-b29c-f582439fa2bd))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW41") (unit 1)
         )
@@ -2588,7 +2556,7 @@
     (pin "1" (uuid d1e18bbf-fb5f-4a08-a510-352986c36f4b))
     (pin "2" (uuid bbc6ce68-d9b3-491e-a6ed-c184f00842fa))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D1") (unit 1)
         )
@@ -2612,7 +2580,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "S4") (unit 1)
         )
@@ -2638,7 +2606,7 @@
     (pin "1" (uuid c4f1ed33-6e87-4ce9-8abc-55f97bcc7552))
     (pin "2" (uuid fe958985-0642-4677-8573-d2220e8a3a0f))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW39") (unit 1)
         )
@@ -2664,7 +2632,7 @@
     (pin "1" (uuid 2aef5fa0-9822-4303-a959-a82348a14328))
     (pin "2" (uuid b3a753f7-6c1d-4b98-8640-5299865029e4))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW22") (unit 1)
         )
@@ -2690,7 +2658,7 @@
     (pin "1" (uuid eb58b789-d17e-4757-a086-d1c401e9dd65))
     (pin "2" (uuid 0b4a32ed-617b-40a4-943c-21e43da9e2bc))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW35") (unit 1)
         )
@@ -2725,7 +2693,7 @@
     (pin "1" (uuid cec95f9f-36b1-4864-bdb6-fcfb0c6ef2e9))
     (pin "2" (uuid 85433c3e-7f9b-4c3b-8b46-ee7e8641ddd1))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D41") (unit 1)
         )
@@ -2760,7 +2728,7 @@
     (pin "1" (uuid 03ac312b-0bd0-43bf-904e-9b7d6130f2fc))
     (pin "2" (uuid 8a416489-8a7d-486d-a7e5-e3c3f56fe902))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D25") (unit 1)
         )
@@ -2786,7 +2754,7 @@
     (pin "1" (uuid 3b19895c-6ec9-45ac-b50a-eb5363f53ec6))
     (pin "2" (uuid 7dc8a5ef-3ba7-42ba-98d6-f2c0c66e9f69))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW14") (unit 1)
         )
@@ -2812,7 +2780,7 @@
     (pin "1" (uuid f76cc2c6-677f-4ebc-894f-b990b52129eb))
     (pin "2" (uuid fcb4f21f-26df-48d3-98a2-944aa68ad842))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW21") (unit 1)
         )
@@ -2847,7 +2815,7 @@
     (pin "1" (uuid d8a09269-be51-4319-858a-4134c06ea197))
     (pin "2" (uuid c61832fd-9564-46cc-8d9d-e3c3862b22ff))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D21") (unit 1)
         )
@@ -2882,7 +2850,7 @@
     (pin "1" (uuid 997f8aa1-5345-4920-951f-950f79195728))
     (pin "2" (uuid 742faf59-9495-4df0-9771-6109daaa1546))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D3") (unit 1)
         )
@@ -2908,7 +2876,7 @@
     (pin "1" (uuid 69e18317-c2c3-4be3-9908-c422963c8ebf))
     (pin "2" (uuid 4b57ec0a-c51e-4289-9d04-a084cd92f83d))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW17") (unit 1)
         )
@@ -2934,7 +2902,7 @@
     (pin "1" (uuid be91a73d-84b3-4cfa-b460-0cfb58fcfccf))
     (pin "2" (uuid df18d5a7-61f5-414c-ba64-fef5dc2dbaab))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW25") (unit 1)
         )
@@ -2973,7 +2941,7 @@
     (pin "2" (uuid ba7d42db-7396-4549-819f-a5459b515ada))
     (pin "3" (uuid dcaa3725-dbc5-4d31-84df-addc48332759))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21"
           (reference "Q1") (unit 1)
         )
@@ -3002,7 +2970,7 @@
     (pin "1" (uuid 43d23bf2-9cad-4f26-9816-ebad4c616cee))
     (pin "2" (uuid 0dc20f57-6f6f-4c4e-805d-20e6e53e001e))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW47") (unit 1)
         )
@@ -3037,7 +3005,7 @@
     (pin "1" (uuid 432cb20c-89ce-4216-b6dd-52c0a020d3d5))
     (pin "2" (uuid 14485e7d-769f-4306-99d3-d21b79fec987))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D38") (unit 1)
         )
@@ -3063,7 +3031,7 @@
     (pin "1" (uuid 13892712-d71b-46d5-b46a-18c9a086602b))
     (pin "2" (uuid d4f7a7c4-cb93-46d1-9e50-96dd23a3acf6))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW4") (unit 1)
         )
@@ -3089,7 +3057,7 @@
     (pin "1" (uuid 5be90056-bd97-48d1-ae0c-e0320bfd3c69))
     (pin "2" (uuid 8a8900c1-e1bc-4f59-b45b-05149d75d5a8))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW20") (unit 1)
         )
@@ -3115,7 +3083,7 @@
     (pin "1" (uuid dc677a14-751c-4b5a-90db-40e34ba84e74))
     (pin "2" (uuid bf7f7b1a-3c05-4803-b4df-e01fd21c76d4))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW33") (unit 1)
         )
@@ -3141,9 +3109,35 @@
     (pin "1" (uuid e0788854-ab65-4353-8767-003ff98f1db3))
     (pin "2" (uuid 9d42026f-e4be-435d-b3b4-1cb8776906f9))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW18") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "marbastlib-mx:MX_SW_HS") (at 198.12 153.67 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 94483016-a441-4673-a0b3-fd0519acd0c2)
+    (property "Reference" "SW48" (at 198.12 147.32 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "MX_SW_solder" (at 198.12 149.86 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "marbastlib-mx:SW_MX_1u" (at 198.12 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 198.12 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 68f139e1-94b4-4057-8ca6-f38b35623fbf))
+    (pin "2" (uuid 87dc25f6-8aa6-4f52-ab0d-ba3f59af8c59))
+    (instances
+      (project "Koneko40Stagger"
+        (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
+          (reference "SW48") (unit 1)
         )
       )
     )
@@ -3167,7 +3161,7 @@
     (pin "1" (uuid 096b4c33-ed33-4c68-9648-b44c42df9458))
     (pin "2" (uuid 7f44ee71-e7e3-455b-b0dd-e0e3e4e2cd06))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW19") (unit 1)
         )
@@ -3202,7 +3196,7 @@
     (pin "1" (uuid 8a661e4c-a14d-4e47-947c-84483b88a41f))
     (pin "2" (uuid 44e0d032-1abf-4836-9f6f-7dc63420c70b))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D31") (unit 1)
         )
@@ -3210,24 +3204,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 2.54 0 0) (unit 1)
+  (symbol (lib_id "power:GND") (at -1.27 0 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a188831-4096-4d0c-9d5d-c507739b1c96)
-    (property "Reference" "#PWR021" (at 2.54 6.35 0)
+    (property "Reference" "#PWR021" (at -1.27 6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 2.54 5.08 0)
+    (property "Value" "GND" (at -1.27 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 2.54 0 0)
+    (property "Footprint" "" (at -1.27 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 2.54 0 0)
+    (property "Datasheet" "" (at -1.27 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8641974d-22da-4002-ac7c-ea0d073b31f2))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "#PWR021") (unit 1)
         )
@@ -3253,7 +3247,7 @@
     (pin "1" (uuid 8e39ab3b-d035-43e0-9ee9-86bc41d614fc))
     (pin "2" (uuid 361314fc-6ce2-40e6-bfae-7416dad4efd8))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW51") (unit 1)
         )
@@ -3277,7 +3271,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "S40") (unit 1)
         )
@@ -3303,7 +3297,7 @@
     (pin "1" (uuid 4c040484-7886-4b6e-aaa5-41068cede47e))
     (pin "2" (uuid 5095b1cf-d633-4922-af76-fa592373fe87))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW7") (unit 1)
         )
@@ -3329,7 +3323,7 @@
     (pin "1" (uuid 15492b70-9658-4bcc-93fb-1e831be38006))
     (pin "2" (uuid 7da18f9f-781e-4881-bc05-671d1c09d7bf))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW8") (unit 1)
         )
@@ -3364,7 +3358,7 @@
     (pin "1" (uuid 0f849d22-098a-4433-8409-b6ce2383aa65))
     (pin "2" (uuid 196a82be-bc24-43a4-963f-4fc445791114))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D11") (unit 1)
         )
@@ -3390,7 +3384,7 @@
     (pin "1" (uuid 3fdc8184-b2bb-49ed-9e00-7bb5ab7531ac))
     (pin "2" (uuid a8a46a47-52ef-4ceb-984f-0e399ffd3b1c))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW37") (unit 1)
         )
@@ -3425,7 +3419,7 @@
     (pin "1" (uuid 53a78762-c9e4-4c11-90a1-35f1cb50f463))
     (pin "2" (uuid bc0a86d1-d269-438e-9f58-1c731a049fa9))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D8") (unit 1)
         )
@@ -3460,7 +3454,7 @@
     (pin "1" (uuid a4607622-163b-4344-a8ab-a77017048ffa))
     (pin "2" (uuid 7467dfe1-b582-4985-a60a-0f53fb1d1c56))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D34") (unit 1)
         )
@@ -3486,7 +3480,7 @@
     (pin "1" (uuid 2aacdbd6-d255-4ab2-beba-40921b6b6d88))
     (pin "2" (uuid 0f01d53c-85b4-4a0a-a35b-6f8fb84ff1ff))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW3") (unit 1)
         )
@@ -3521,7 +3515,7 @@
     (pin "1" (uuid e7743b2c-e79f-4463-944a-1f909e222ca5))
     (pin "2" (uuid 4f93bf42-8613-4650-80ed-f0f3d6c76bdf))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D36") (unit 1)
         )
@@ -3547,7 +3541,7 @@
     (pin "1" (uuid d608d640-c262-4df8-9e61-1a96861e0a3b))
     (pin "2" (uuid 2d0d9e09-00f2-4472-bab4-9876789cd642))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW28") (unit 1)
         )
@@ -3582,7 +3576,7 @@
     (pin "1" (uuid 6f169719-0007-4299-848e-e01ebf523402))
     (pin "2" (uuid bc2c87d6-5e60-4ec6-bda7-d498039a2faa))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D39") (unit 1)
         )
@@ -3608,7 +3602,7 @@
     (pin "1" (uuid 6594d937-801f-40bc-bb2e-6474e1643dce))
     (pin "2" (uuid 621bcfd9-0c87-4bf3-93b8-dc25132f8ace))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW6") (unit 1)
         )
@@ -3643,7 +3637,7 @@
     (pin "1" (uuid 8c14be47-5b73-4b5b-a371-ad3017df0153))
     (pin "2" (uuid 23cd5b17-d4b2-4d06-a341-ab72e4dbe812))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D7") (unit 1)
         )
@@ -3678,7 +3672,7 @@
     (pin "1" (uuid 4c94ead7-bb35-4806-a738-205deff04b5b))
     (pin "2" (uuid cb082b31-85f6-486d-829b-788f8f1b895a))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D32") (unit 1)
         )
@@ -3704,7 +3698,7 @@
     (pin "1" (uuid dc9073dd-c326-4c21-9d6a-f193666b6458))
     (pin "2" (uuid e34a3f2c-fcf6-4766-ad27-e340f5799f58))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW49") (unit 1)
         )
@@ -3730,7 +3724,7 @@
     (pin "1" (uuid c254dbc8-87c5-4e48-a2ee-ea67013a75a8))
     (pin "2" (uuid 652c6c20-3487-4201-8669-f5c9c42e2b86))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW11") (unit 1)
         )
@@ -3765,7 +3759,7 @@
     (pin "1" (uuid a3f4272b-b22c-4ad4-9f9c-dfda1eee30f5))
     (pin "2" (uuid 6f8bc014-ae31-419b-b4d4-a241bb53434d))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D44") (unit 1)
         )
@@ -3800,7 +3794,7 @@
     (pin "1" (uuid 050629a0-c8e1-41c3-a947-b5367b6c23f8))
     (pin "2" (uuid c120b480-3a7c-448c-8379-ce8e7f781b3e))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D40") (unit 1)
         )
@@ -3826,7 +3820,7 @@
     (pin "1" (uuid c0504842-9498-49de-aaeb-0826a4ae45c1))
     (pin "2" (uuid 71578187-9e43-4997-a6c1-10f4f62a562f))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW32") (unit 1)
         )
@@ -3861,7 +3855,7 @@
     (pin "1" (uuid 414ddc5d-6d8a-49ec-89ea-d244a2dd57bb))
     (pin "2" (uuid 17003c70-f69b-495c-ab67-665949ef52f6))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D22") (unit 1)
         )
@@ -3896,7 +3890,7 @@
     (pin "1" (uuid 655276d3-1a9b-4a41-9979-f594dbc30483))
     (pin "2" (uuid 8e2cba8b-4a3a-4603-862c-a3b0e0de7068))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D37") (unit 1)
         )
@@ -3921,7 +3915,7 @@
     )
     (pin "1" (uuid 25ae48fa-16a9-4f4d-a552-6c85a584fb19))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "#PWR028") (unit 1)
         )
@@ -3956,7 +3950,7 @@
     (pin "1" (uuid 640fbe02-5129-4fde-8bbe-7fee2ca0b4b0))
     (pin "2" (uuid 19f9cd2b-b276-4dd3-b3d2-c36161a6cade))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D13") (unit 1)
         )
@@ -3991,7 +3985,7 @@
     (pin "1" (uuid e564cba2-4d6c-4218-9a95-345641272f5d))
     (pin "2" (uuid 7c0c48fa-7c2e-45c1-8b94-1d1de2b184cc))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D20") (unit 1)
         )
@@ -4026,7 +4020,7 @@
     (pin "1" (uuid 1f6472b3-e7f5-4bf9-ba30-100093cf7b93))
     (pin "2" (uuid 0b687135-7c63-4053-9f8b-294b8323e67e))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D24") (unit 1)
         )
@@ -4052,7 +4046,7 @@
     (pin "1" (uuid ea9640d7-9671-4bc2-878c-812dfcd584ac))
     (pin "2" (uuid 9baa0e02-876b-46b4-a6c1-f7b802013047))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW12") (unit 1)
         )
@@ -4087,7 +4081,7 @@
     (pin "1" (uuid d1b090d5-5663-48ba-a479-788685ca5e66))
     (pin "2" (uuid d9cd9c43-ad1c-425d-9af9-74aad1841458))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D16") (unit 1)
         )
@@ -4122,7 +4116,7 @@
     (pin "1" (uuid 882e5dd5-9695-4af3-9465-caa01b32d304))
     (pin "2" (uuid 96633dd4-710a-45e1-ae67-f63598295973))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D2") (unit 1)
         )
@@ -4157,7 +4151,7 @@
     (pin "1" (uuid b6f58549-2dbf-422c-b88f-9a0cec21ab81))
     (pin "2" (uuid eb58bd54-9c99-412b-9576-c72df2e34ee4))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D4") (unit 1)
         )
@@ -4192,7 +4186,7 @@
     (pin "1" (uuid b6d24c42-2ecf-43d0-b213-ff1a99d4aa55))
     (pin "2" (uuid 38bd7375-b5e2-45d1-8899-2539f27e7fdc))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D12") (unit 1)
         )
@@ -4218,7 +4212,7 @@
     (pin "1" (uuid f841bf62-1b46-4d46-8e3a-5484e39934b6))
     (pin "2" (uuid 280e9f33-0eef-40fa-9a0d-aa9be9548ef5))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW38") (unit 1)
         )
@@ -4247,7 +4241,7 @@
     (pin "1" (uuid 9b6a807a-b623-430e-8655-b8be9fc2154b))
     (pin "2" (uuid a92fa1f0-87f4-4e41-b654-731afdc9222d))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21"
           (reference "R3") (unit 1)
         )
@@ -4276,7 +4270,7 @@
     (pin "1" (uuid 97528de7-43c0-4ed7-81c6-9ad47a2b7c9e))
     (pin "2" (uuid 303641a4-1a65-464b-81d4-ac8f5cf0d5f2))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW30") (unit 1)
         )
@@ -4311,35 +4305,9 @@
     (pin "1" (uuid 6722f3be-2059-4769-a218-9034c36ace08))
     (pin "2" (uuid 548f48d6-8b8e-4e8a-a998-4476396de5de))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D33") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "marbastlib-mx:MX_SW_HS") (at 176.53 140.97 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d1473167-8b82-4b73-956b-3f1f42a9b539)
-    (property "Reference" "SW48" (at 176.53 134.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "MX_SW_solder" (at 176.53 137.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "marbastlib-mx:SW_MX_1u" (at 176.53 140.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 176.53 140.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4a95f577-297a-45de-90cb-c398f65f1630))
-    (pin "2" (uuid fe7af45b-2fe8-43d3-bc9d-ec8e072356ab))
-    (instances
-      (project "PCB"
-        (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
-          (reference "SW48") (unit 1)
         )
       )
     )
@@ -4372,7 +4340,7 @@
     (pin "1" (uuid 1aaf3065-b44f-4b0b-94b3-0951c849a190))
     (pin "2" (uuid 6a57d3d4-3502-497e-9fc9-89181fd3ab84))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D26") (unit 1)
         )
@@ -4398,7 +4366,7 @@
     (pin "1" (uuid 17c1e193-c1f2-45a2-97bd-9264f340da0f))
     (pin "2" (uuid 8b0821ac-cdcf-4cfd-82b9-c386bdb906d2))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW42") (unit 1)
         )
@@ -4422,7 +4390,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "S3") (unit 1)
         )
@@ -4448,7 +4416,7 @@
     (pin "1" (uuid 97889e25-1079-423c-a7a1-61b00846d9f0))
     (pin "2" (uuid 4fb8d13f-c79b-4db5-95b9-2126a73a251b))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW15") (unit 1)
         )
@@ -4474,7 +4442,7 @@
     (pin "1" (uuid cdfb4067-d548-458c-8f68-f51d6e7e0a80))
     (pin "2" (uuid 359be7c9-e0e6-4e01-a5a3-e6c96e95bd32))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW23") (unit 1)
         )
@@ -4509,7 +4477,7 @@
     (pin "1" (uuid d146beff-51dd-42cb-830b-ec026f88e528))
     (pin "2" (uuid ffa1b5fc-3a8f-4a96-9651-b17fe46b4cce))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D6") (unit 1)
         )
@@ -4535,7 +4503,7 @@
     (pin "1" (uuid 92cc6885-6b78-4f8c-a3d7-e63cdf5e9399))
     (pin "2" (uuid 7da7b259-095a-4cbf-929c-44c0c365236b))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW10") (unit 1)
         )
@@ -4570,7 +4538,7 @@
     (pin "1" (uuid 1adcb988-3697-421c-9cd2-040d40525591))
     (pin "2" (uuid 6a79f52a-8912-4ca0-96e6-d6d66e0bd080))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D18") (unit 1)
         )
@@ -4596,7 +4564,7 @@
     (pin "1" (uuid c4c572af-bde4-48ba-8dec-f34fe59bbff2))
     (pin "2" (uuid 7be14e2e-32d9-4216-b1e7-abad2910ab12))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW16") (unit 1)
         )
@@ -4622,7 +4590,7 @@
     (pin "1" (uuid 243b51c7-98fd-4e08-9878-957e01a2d3cf))
     (pin "2" (uuid 559150c8-feaf-4022-9c28-45b673420f59))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW27") (unit 1)
         )
@@ -4657,7 +4625,7 @@
     (pin "1" (uuid d13afa2d-f5ae-44b4-928d-99951f476e97))
     (pin "2" (uuid 2bdfae5f-11d1-4d8f-9ef5-2267ef4a86c9))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D14") (unit 1)
         )
@@ -4692,7 +4660,7 @@
     (pin "1" (uuid 1fddb242-88a4-469e-95a0-b712cff3dc16))
     (pin "2" (uuid 4103127d-7571-4946-aa89-4da69f97e8b3))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D30") (unit 1)
         )
@@ -4718,7 +4686,7 @@
     (pin "1" (uuid b0e26d1c-9018-4580-b516-2363fa970c43))
     (pin "2" (uuid 85db1c9c-8eae-4a96-8a9f-8e371023b30d))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW5") (unit 1)
         )
@@ -4746,7 +4714,7 @@
     (pin "C" (uuid d03a694b-4fcc-4f7a-91fb-1191036fa930))
     (pin "S" (uuid 3058a87c-fab5-434b-a03d-7fa1b586aa0b))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW43") (unit 1)
         )
@@ -4781,7 +4749,7 @@
     (pin "1" (uuid 052b8d0a-537c-41e3-b8f9-95ce5475ae5f))
     (pin "2" (uuid 30df04cc-6fe0-49fd-ac03-89837d788d44))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D42") (unit 1)
         )
@@ -4807,7 +4775,7 @@
     (pin "1" (uuid debc8030-65ec-42a1-8ad9-4eb070336d43))
     (pin "2" (uuid 84897d5b-9cc1-41a4-98fb-904cf380800d))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW29") (unit 1)
         )
@@ -4842,7 +4810,7 @@
     (pin "1" (uuid 8a6dd860-b03b-499a-8ebd-bd2d51e347f3))
     (pin "2" (uuid a5b31763-6e84-43df-9de2-f01f796dd013))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "D28") (unit 1)
         )
@@ -4868,7 +4836,7 @@
     (pin "1" (uuid ad87d74d-2da5-472c-a4f1-04c8f041ae74))
     (pin "2" (uuid 9fa423f2-ee11-428e-b1e8-05b46df1f560))
     (instances
-      (project "PCB"
+      (project "Koneko40Stagger"
         (path "/dea5f69c-d02e-47df-8e1a-a63949fabb21/0cbd56a0-84b2-4041-9681-83c3815281ca"
           (reference "SW24") (unit 1)
         )
